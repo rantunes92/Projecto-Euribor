@@ -81,11 +81,18 @@ print(round(np.mean(Mai25), 3))
 #Valor remanescente 204405.32
 #Prestação 
 
+Jun25=[2.063]
+print(round(np.mean(Jun25), 3))
+
+#Media Junho 25 2.116
+#Valor remanescente 204405.32
+#Prestação 
+
 CalcularPrestacaoMensal(204196.05, 1.20, round(np.mean(Mai25), 3), 36*12)
 
 
 # Graficos da evolução das medias
-MesEscolhido=Abr25
+MesEscolhido=Mai25
 """
 x = list(range(1, len(MesEscolhido) + 1))
 
