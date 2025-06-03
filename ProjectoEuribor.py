@@ -81,7 +81,7 @@ print(round(np.mean(Mai25), 3))
 #Valor remanescente 204405.32
 #Prestação 
 
-Jun25=[2.063]
+Jun25=[2.063, 2.074]
 print(round(np.mean(Jun25), 3))
 
 #Media Junho 25 2.116
