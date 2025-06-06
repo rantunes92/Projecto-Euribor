@@ -75,12 +75,12 @@ Abr25=[2.309, 2.320, 2.303, 2.259, 2.275, 2.193, 2.231, 2.190, 2.244, 2.212, 2.2
 
 Mai25=[2.143, 2.151, 2.145, 2.146, 2.134, 2.111, 2.121, 2.131, 2.156, 2.161, 2.156, 2.120, 2.121, 2.113, 2.118, 2.101, 2.089, 2.056, 
        2.042, 2.056, 2.069]
-print(round(np.mean(Mai25), 3))
+#print(round(np.mean(Mai25), 3))
 
 #Media Maio 25 2.116
 #Prestação 809.39
 ValorRemanescente=203986.08
-PrestacaoFaltam=431
+PrestacaoFaltam=432
 
 
 Jun25=[2.063, 2.074, 2.064, 2.046, 2.036]
@@ -91,7 +91,8 @@ print(MediaEuribor)
 #Valor remanescente 204405.32
 #Prestação 
 
-CalcularPrestacaoMensal(204196.05, 1.20, round(np.mean(Mai25), 3), 36*12)
+#CalcularPrestacaoMensal(ValorRemanescente, 1.20, 2.116, PrestacaoFaltam)
+#CalculadoraPrestacaoAmor(ValorRemanescente, 809.39, 4000)
 
 
 # Graficos da evolução das medias
