@@ -78,10 +78,12 @@ Mai25=[2.143, 2.151, 2.145, 2.146, 2.134, 2.111, 2.121, 2.131, 2.156, 2.161, 2.1
 print(round(np.mean(Mai25), 3))
 
 #Media Maio 25 2.116
+#Prestação 809.39
 ValorRemanescente=203986.08
-#Prestação 
+PrestacaoFaltam=431
 
-Jun25=[2.063, 2.074, 2.064, 2.046]
+
+Jun25=[2.063, 2.074, 2.064, 2.046, 2.036]
 MediaEuribor=round(np.mean(Jun25), 3)
 print(MediaEuribor)
 
