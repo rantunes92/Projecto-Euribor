@@ -83,7 +83,7 @@ ValorRemanescente=203986.08
 PrestacaoFaltam=432
 
 
-Jun25=[2.063, 2.074, 2.064, 2.046, 2.036, 2.053, 2.044, 2.049]
+Jun25=[2.063, 2.074, 2.064, 2.046, 2.036, 2.053, 2.044, 2.049, 2.052]
 MediaEuribor=round(np.mean(Jun25), 3)
 print(MediaEuribor)
 
