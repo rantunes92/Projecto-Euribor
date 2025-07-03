@@ -92,11 +92,11 @@ MediaEuribor=round(np.mean(Jun25), 3)
 #Prestação 807.46
 
 
-Jul25=[2.051, 2.033]
+Jul25=[2.051, 2.033, 2.031]
 MediaEuribor=round(np.mean(Jul25), 3)
 print(MediaEuribor)
-ValorRemanescente=203986.08
-PrestacaoFaltam=431
+ValorRemanescente=199742.30
+PrestacaoFaltam=430
 
 #CalcularPrestacaoMensal(ValorRemanescente, 1.20, 2.116, PrestacaoFaltam)
 #CalculadoraPrestacaoAmor(ValorRemanescente, 809.39, 4000)
