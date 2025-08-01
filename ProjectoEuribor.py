@@ -100,9 +100,9 @@ print(MediaEuribor)
 ValorRemanescente=199742.30
 PrestacaoFaltam=431
 
-Ago25=[]
-#MediaEuribor=round(np.mean(Ago25), 3)
-#print(MediaEuribor)
+Ago25=[2,070]
+MediaEuribor=round(np.mean(Ago25), 3)
+print(MediaEuribor)
 ValorRemanescente=199742.30
 PrestacaoFaltam=430
 
