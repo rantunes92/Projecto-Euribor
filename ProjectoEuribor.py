@@ -27,6 +27,15 @@ def CalcularPrestacaoMensal(valor_remanescente, spread, euribor, prestacoes_falt
     
     return prestacao
 
+def SubiuOuDesceu(ValorFlag, MediaEuribor):
+       if ValorFlag < MediaEuribor:
+              print("A prestação vai Subir")
+       elif ValorFlag > MediaEuribor:
+              print("A prestação vai Descer")
+       else:
+             print("A prestação vai manter-se")
+       
+
 #Media Mensal Outubro 24 3.002
 #Valor remanescente 205235.50
 #Valor Prestação 890.21
@@ -100,14 +109,15 @@ print(MediaEuribor)
 ValorRemanescente=199742.30
 PrestacaoFaltam=431
 
-Ago25=[2,070, 2.077, 2.075, 2.089, 2.087]
+Ago25=[2.070, 2.077, 2.075, 2.089, 2.087]
 MediaEuribor=round(np.mean(Ago25), 3)
 print(MediaEuribor)
-ValorRemanescente=199742.30
+ValorRemanescente=199500.74
 PrestacaoFaltam=430
 
 #CalcularPrestacaoMensal(ValorRemanescente, 1.20, MediaEuribor, PrestacaoFaltam)
 #CalculadoraPrestacaoAmor(ValorRemanescente, 809.39, 4000)
+#SubiuOuDesceu(ValorFlag, MediaEuribor)
 
 
 # Graficos da evolução das medias
@@ -125,7 +135,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
-
 
 
 
