@@ -105,12 +105,12 @@ MediaEuribor=round(np.mean(Jun25), 3)
 Jul25=[2.051, 2.033, 2.031, 2.026, 2.016, 2.019, 2.051, 2.070, 2.072, 2.087, 2.079, 2.069, 2.069, 2.049, 2.051, 2.032, 2.034, 2.037, 
        2.053, 2.101, 2.083, 2.075]
 MediaEuribor=round(np.mean(Jul25), 3)
-print(MediaEuribor)
+#print(MediaEuribor)
 ValorRemanescente=199742.30
 PrestacaoFaltam=431
 
 Ago25=[2.070, 2.077, 2.075, 2.089, 2.087, 2.083, 2.085, 2.098, 2.100, 2.111, 2.112, 2.111, 2.109, 2.093, 2.077, 2.057, 2.070,
-      2.064 ]
+      2.064, 2.062]
 MediaEuribor=round(np.mean(Ago25), 3)
 print(MediaEuribor)
 ValorRemanescente=199500.74
@@ -120,7 +120,7 @@ Set25=[]
 #MediaEuribor=round(np.mean(Set25), 3)
 #print(MediaEuribor)
 #ValorRemanescente=199500.74
-#PrestacaoFaltam=430
+#PrestacaoFaltam=429
 
 #CalcularPrestacaoMensal(ValorRemanescente, 1.20, MediaEuribor, PrestacaoFaltam)
 #CalculadoraPrestacaoAmor(ValorRemanescente, 809.39, 4000)
@@ -142,18 +142,3 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
