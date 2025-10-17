@@ -122,7 +122,7 @@ MediaEuribor=round(np.mean(Set25), 3)
 ValorRemanescente=199258.52
 PrestacaoFaltam=429
 
-Out25=[2.079, 2.083, 2.095, 2.103, 2.106, 2.103, 2.104, 2.099, 2.103, 2.106, 2.103, 2.110]
+Out25=[2.079, 2.083, 2.095, 2.103, 2.106, 2.103, 2.104, 2.099, 2.103, 2.106, 2.103, 2.110, 2.113]
 MediaEuribor=round(np.mean(Out25), 3)
 print(MediaEuribor)
 ValorRemanescente=199015.63
@@ -150,6 +150,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
+
 
 
 
