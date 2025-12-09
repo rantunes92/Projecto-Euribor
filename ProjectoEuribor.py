@@ -140,7 +140,7 @@ PrestacaoFaltam=427
 
 ValorFlag=round(np.mean(Nov25), 3)
 
-Dez25=[2.123, 2.121, 2.113, 2.126, 2.147, 2.150]
+Dez25=[2.123, 2.121, 2.113, 2.126, 2.147, 2.150, 2.168]
 MediaEuribor=round(np.mean(Dez25), 3)
 print(MediaEuribor)
 ValorRemanescente=198527.83
@@ -168,5 +168,6 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
+
 
 
