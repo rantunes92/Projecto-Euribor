@@ -165,7 +165,7 @@ PrestacaoFaltam=424
 print(f"Valor flag", ValorFlag)
 
 #CalcularPrestacaoMensal(ValorRemanescente, 1.20, MediaEuribor, PrestacaoFaltam)
-#CalculadoraPrestacaoAmor(ValorRemanescente, 795.22, 5000)
+#CalculadoraPrestacaoAmor(ValorRemanescente, 775.17, 5000)
 #SubiuOuDesceu(ValorFlag, MediaEuribor)
 
 
@@ -184,6 +184,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
+
 
 
 
