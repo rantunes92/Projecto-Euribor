@@ -156,7 +156,7 @@ ValorRemanescente=193283.69
 PrestacaoFaltam=425
 
 Fev26=[2.154, 2.161, 2.171, 2.172, 2.152, 2.132, 2.114, 2.108, 2.131, 2.147, 2.155,
-      2.159, 2.141, 2.137, 2.141, 2.145, 2.149]
+      2.159, 2.141, 2.137, 2.141, 2.145, 2.149, 2.139]
 MediaEuribor=round(np.mean(Fev26), 3)
 print(MediaEuribor)
 
@@ -185,6 +185,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
+
 
 
 
