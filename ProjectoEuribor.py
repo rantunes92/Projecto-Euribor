@@ -163,11 +163,11 @@ print(MediaEuribor)
 ValorRemanescente=193045.04
 PrestacaoFaltam=424
 
-Mar26=[2.131]
+Mar26=[2.131, 2.120]
 MediaEuribor=round(np.mean(Mar26), 3)
 print(MediaEuribor)
 
-ValorRemanescente=193045.04
+ValorRemanescente=192805.73
 PrestacaoFaltam=423
 
 print(f"Valor flag", ValorFlag)
@@ -192,6 +192,7 @@ plt.legend()
 plt.grid(True)
 plt.show()
 """
+
 
 
 
