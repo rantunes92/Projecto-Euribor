@@ -172,7 +172,7 @@ ValorRemanescente=192805.73
 PrestacaoFaltam=423
 
 
-Abr26=[2.488]
+Abr26=[2.488, 2.458]
 MediaEuribor=round(np.mean(Abr26), 3)
 print(MediaEuribor)
 
