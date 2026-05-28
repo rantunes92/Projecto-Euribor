@@ -181,7 +181,7 @@ ValorRemanescente=192565.76
 PrestacaoFaltam=422
 
 Mai26=[2.558, 2.523, 2.556, 2.522, 2.472, 2.492, 2.485, 2.548, 2.548, 2.562, 2.594, 2.619, 
-       2.603, 2.596, 2.547, 2.516, 2.446, 2.492]
+       2.603, 2.596, 2.547, 2.516, 2.446, 2.492, 2.502]
 MediaEuribor=round(np.mean(Mai26), 3)
 print(MediaEuribor)
 ValorRemanescente=192325.12
