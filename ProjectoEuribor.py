@@ -175,7 +175,7 @@ PrestacaoFaltam=423
 Abr26=[2.488, 2.458, 2.512, 2.525, 2.429, 2.453, 2.437, 2.475, 2.468, 2.453, 2.415, 2.416,
       2.381, 2.385, 2.427, 2.459, 2.465, 2.443, 2.462, 2.524]
 MediaEuribor=round(np.mean(Abr26), 3)
-print(MediaEuribor)
+
 
 ValorRemanescente=192565.76
 PrestacaoFaltam=422
@@ -183,17 +183,23 @@ PrestacaoFaltam=422
 Mai26=[2.558, 2.523, 2.556, 2.522, 2.472, 2.492, 2.485, 2.548, 2.548, 2.562, 2.594, 2.619, 
        2.603, 2.596, 2.547, 2.516, 2.446, 2.492, 2.502, 2.547]
 MediaEuribor=round(np.mean(Mai26), 3)
-print(MediaEuribor)
 ValorRemanescente=192325.12
 PrestacaoFaltam=421
 ValorFlag=round(np.mean(Mai26), 3)
 
 Jun26=[2.519, 2.540, 2.549, 2.588, 2.584, 2.586, 2.606, 2.592, 2.617, 2.639, 2.606, 2.592,
-      2.607, 2.606, 2.622, 2.631, 2.638, 2.615, 2.606, 2.596, 2.595]
+      2.607, 2.606, 2.622, 2.631, 2.638, 2.615, 2.606, 2.596, 2.595, 2.568]
 MediaEuribor=round(np.mean(Jun26), 3)
 print(MediaEuribor)
-ValorRemanescente=192325.12
+ValorRemanescente=192083.81
 PrestacaoFaltam=420
+
+Jul26=[]
+MediaEuribor=round(np.mean(Jul26), 3)
+print(MediaEuribor)
+ValorRemanescente=192325.12
+PrestacaoFaltam=419
+
 
 print(f"Valor flag", ValorFlag)
 
