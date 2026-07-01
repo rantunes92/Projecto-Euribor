@@ -194,7 +194,7 @@ print(MediaEuribor)
 ValorRemanescente=192083.81
 PrestacaoFaltam=420
 
-Jul26=[]
+Jul26=[2.554]
 MediaEuribor=round(np.mean(Jul26), 3)
 print(MediaEuribor)
 ValorRemanescente=192325.12
