@@ -191,10 +191,10 @@ Jun26=[2.519, 2.540, 2.549, 2.588, 2.584, 2.586, 2.606, 2.592, 2.617, 2.639, 2.6
       2.607, 2.606, 2.622, 2.631, 2.638, 2.615, 2.606, 2.596, 2.595, 2.568]
 MediaEuribor=round(np.mean(Jun26), 3)
 print(MediaEuribor)
-ValorRemanescente=192083.81
+ValorRemanescente=191861.48
 PrestacaoFaltam=420
 
-Jul26=[2.554]
+Jul26=[2.554, 2.565]
 MediaEuribor=round(np.mean(Jul26), 3)
 print(MediaEuribor)
 ValorRemanescente=192325.12
