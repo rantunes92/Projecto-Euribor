@@ -202,7 +202,7 @@ PrestacaoFaltam=419
 
 
 Ago26=[2.705, 2.724, 2.717, 2.687, 2.683, 2.662, 2.637, 2.658, 2.653, 2.671, 2.687,
-      2.697, 2.719, 2.737]
+      2.697, 2.719, 2.737, 2.765]
 MediaEuribor=round(np.mean(Ago26), 3)
 print(MediaEuribor)
 ValorRemanescente=189638.46
