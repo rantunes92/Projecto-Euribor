@@ -209,6 +209,13 @@ ValorRemanescente=189638.46
 PrestacaoFaltam=419
 print(f"Valor flag", ValorFlag)
 
+Set26=[]
+MediaEuribor=round(np.mean(Set26), 3)
+print(MediaEuribor)
+ValorRemanescente=189638.46
+PrestacaoFaltam=418
+print(f"Valor flag", ValorFlag)
+
 #CalcularPrestacaoMensal(ValorRemanescente, 1.2, MediaEuribor, PrestacaoFaltam)
 #CalculadoraPrestacaoAmor(ValorRemanescente, 775.17, 5000)
 #SubiuOuDesceu(ValorFlag, MediaEuribor)
