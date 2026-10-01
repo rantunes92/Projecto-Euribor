@@ -204,10 +204,8 @@ PrestacaoFaltam=419
 Ago26=[2.705, 2.724, 2.717, 2.687, 2.683, 2.662, 2.637, 2.658, 2.653, 2.671, 2.687,
       2.697, 2.719, 2.737, 2.765, 2.772, 2.762, 2.766, 2.746, 2.762, 2.770]
 MediaEuribor=round(np.mean(Ago26), 3)
-print(MediaEuribor)
 ValorRemanescente=189638.46
 PrestacaoFaltam=419
-print(f"Valor flag", ValorFlag)
 
 Set26=[2.779, 2.770, 2.789, 2.794, 2.797, 2.796, 2.800, 2.806, 2.820, 2.936, 2.946, 2.973, 2.962,
       2.978 ,2.991, 2.999, 3.013, 3.018, 3.070, 3.066, 3.103, 3.074]
@@ -217,6 +215,13 @@ ValorRemanescente=189417.09
 PrestacaoFaltam=418
 print(f"Valor flag", ValorFlag)
 
+
+Out26=[3.043]
+MediaEuribor=round(np.mean(Out26), 3)
+print(MediaEuribor)
+ValorRemanescente=189417.09
+PrestacaoFaltam=418
+print(f"Valor flag", ValorFlag)
 #CalcularPrestacaoMensal(ValorRemanescente, 1.2, MediaEuribor, PrestacaoFaltam)
 #CalculadoraPrestacaoAmor(ValorRemanescente, 775.17, 5000)
 #SubiuOuDesceu(ValorFlag, MediaEuribor)
