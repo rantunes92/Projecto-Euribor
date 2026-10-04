@@ -219,8 +219,8 @@ print(f"Valor flag", ValorFlag)
 Out26=[3.043, 3.058]
 MediaEuribor=round(np.mean(Out26), 3)
 print(MediaEuribor)
-ValorRemanescente=189417.09
-PrestacaoFaltam=418
+ValorRemanescente=189195.03
+PrestacaoFaltam=417
 print(f"Valor flag", ValorFlag)
 #CalcularPrestacaoMensal(ValorRemanescente, 1.2, MediaEuribor, PrestacaoFaltam)
 #CalculadoraPrestacaoAmor(ValorRemanescente, 775.17, 5000)
