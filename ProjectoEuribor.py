@@ -210,11 +210,8 @@ PrestacaoFaltam=419
 Set26=[2.779, 2.770, 2.789, 2.794, 2.797, 2.796, 2.800, 2.806, 2.820, 2.936, 2.946, 2.973, 2.962,
       2.978 ,2.991, 2.999, 3.013, 3.018, 3.070, 3.066, 3.103, 3.074]
 MediaEuribor=round(np.mean(Set26), 3)
-print(MediaEuribor)
 ValorRemanescente=189417.09
 PrestacaoFaltam=418
-print(f"Valor flag", ValorFlag)
-
 
 Out26=[3.043, 3.058, 2.986, 2.954, 2.947, 2.936]
 MediaEuribor=round(np.mean(Out26), 3)
