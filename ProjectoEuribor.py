@@ -222,7 +222,7 @@ PrestacaoFaltam=417
 print(f"Valor flag", ValorFlag)
 
 Nov26=[2.994, 3.006, 3.008, 3.014, 3.016, 3.001, 3.018, 3.010, 3.023, 3.015, 3.008, 3.007, 3.016,
-      3.043, 3.071]
+      3.043, 3.071, 3.079]
 MediaEuribor=round(np.mean(Nov26), 3)
 print(MediaEuribor)
 ValorRemanescente=188972.28
